@@ -28,6 +28,7 @@
 //
 // *** To Implement Deep Linking functionality reference: https://support.appsflyer.com/hc/en-us/articles/208874366 ****
 
+#if canImport(UIKit)
 import Foundation
 import UIKit
 import Segment
@@ -330,3 +331,4 @@ private struct AppsFlyerSettings: Codable {
     let appleAppID: String
     let trackAttributionData: Bool?
 }
+#endif
