@@ -7,6 +7,7 @@ let package = Package(
     name: "SegmentAppsFlyer",
     platforms: [
         .iOS("13.0"),
+        .macOS("10.15"),
         .tvOS("11.0"),
         .watchOS("7.1")
     ],
